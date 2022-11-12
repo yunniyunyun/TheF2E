@@ -1,0 +1,92 @@
+h1{
+    font-size: 32px;
+    line-height: 125%;
+}
+@media (max-width: $media-m){
+    h1{
+        font-size: 24px;
+    }
+}
+@media (max-width: $media-s){
+    h1{
+        font-size: 20px;
+    }
+}
+
+h2{
+    font-size: 60px;
+    line-height: 125%;
+}
+@media (max-width: $media-m){
+    h2{
+        font-size: 44px;
+    }
+}
+@media (max-width: $media-s){
+    h2{
+        font-size: 28px;
+    }
+}
+
+h3{
+    font-size: 44px;
+    line-height: 125%;
+}
+@media (max-width: $media-m){
+    h3{
+        font-size: 34px;
+    }
+}
+@media (max-width: $media-s){
+    h3{
+        font-size: 24px;
+    }
+}
+
+h4{
+    font-size: 32px;
+    line-height: 140%;
+}
+@media (max-width: $media-m){
+    h4{
+        font-size: 26px;
+    }
+}
+@media (max-width: $media-s){
+    h4{
+        font-size: 20px;
+    }
+}
+
+
+h5, .highlight{
+    font-size: 24px;
+    line-height: 140%;
+}
+@media (max-width: $media-m){
+    h5, .highlight{
+        font-size: 20px;
+    }
+}
+@media (max-width: $media-s){
+    h5, .highlight{
+        font-size: 18px;
+    }
+}
+
+.bg-primary{
+    display: inline-block;
+    background: $Primary-color;
+    color: #FFFFFF;
+}
+
+.p4-28{
+    padding: 4px 28px;
+}
+
+.bdrs-60{
+    border-radius: 60px;
+}
+.bdrs-40{
+    border-radius: 40px;
+}
