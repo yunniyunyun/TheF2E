@@ -76,7 +76,7 @@ body {
   color: #007FAB;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 485px) {
   body {
     font-size: 16px;
   }
@@ -93,7 +93,7 @@ h1 {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 485px) {
   h1 {
     font-size: 20px;
   }
@@ -110,7 +110,7 @@ h2 {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 485px) {
   h2 {
     font-size: 28px;
   }
@@ -127,7 +127,7 @@ h3 {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 485px) {
   h3 {
     font-size: 24px;
   }
@@ -144,7 +144,7 @@ h4 {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 485px) {
   h4 {
     font-size: 20px;
   }
@@ -161,10 +161,14 @@ h5, .highlight {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 485px) {
   h5, .highlight {
     font-size: 18px;
   }
+}
+
+.color-red {
+  color: #FF5136;
 }
 
 .bg-primary {
@@ -185,12 +189,22 @@ h5, .highlight {
   border-radius: 40px;
 }
 
+.display-s {
+  display: none;
+}
+
+@media (max-width: 485px) {
+  .display-s {
+    display: block;
+  }
+}
+
 header {
   height: 100vh;
   position: relative;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 485px) {
   header {
     height: 120vh;
   }
@@ -226,7 +240,7 @@ header {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 485px) {
   .logo-text {
     position: relative;
     width: 133px;
@@ -238,7 +252,6 @@ header {
 }
 
 .logo {
-  display: none;
   width: 253px;
   height: 189px;
   background-image: url("../images/logo/logo.png");
@@ -246,12 +259,6 @@ header {
   background-position: center;
   background-size: 100%;
   margin: 37px auto;
-}
-
-@media (max-width: 376px) {
-  .logo {
-    display: block;
-  }
 }
 
 .bg-road {
@@ -274,7 +281,7 @@ header {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 485px) {
   .bg-road {
     width: 349px;
     height: 40px;
@@ -302,7 +309,7 @@ header {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 485px) {
   .bg-start {
     display: none;
   }
@@ -335,7 +342,7 @@ header {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 485px) {
   .char-f2e {
     width: 112.35px;
     height: 192.47px;
@@ -370,7 +377,7 @@ header {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 485px) {
   .char-ui {
     width: 112.35px;
     height: 192.47px;
@@ -405,7 +412,7 @@ header {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 485px) {
   .char-team {
     width: 112.35px;
     height: 168.83px;
@@ -451,7 +458,7 @@ h1 {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 485px) {
   h1 {
     width: 176px;
     height: 32px;
@@ -488,7 +495,7 @@ h1 {
   overflow: hidden;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 485px) {
   .ready-users {
     display: block;
     margin-top: 20px;
@@ -502,6 +509,175 @@ h1 {
 @media (max-width: 1440px) {
   .ready-users {
     max-width: 58vw;
+  }
+}
+
+footer {
+  height: 100vh;
+  position: relative;
+}
+
+@media (max-width: 485px) {
+  footer {
+    max-height: 880px;
+  }
+}
+
+.ft-logo {
+  width: 520px;
+  height: 387.15px;
+  margin: 124px auto 0;
+  background-image: url("../images/logo/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+@media (max-width: 1440px) {
+  .ft-logo {
+    width: 27vw;
+    height: 20vw;
+    margin: 10vh auto 0;
+  }
+}
+
+@media (max-width: 485px) {
+  .ft-logo {
+    width: 226px;
+    height: 169px;
+    margin-bottom: 40px;
+  }
+}
+
+.join {
+  margin-bottom: 100px;
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+@media (max-width: 485px) {
+  .join {
+    width: 120px;
+  }
+}
+
+.btn-joinHand {
+  width: 88.54px;
+  height: 110.29px;
+  background-image: url("../images/btn/btn_joinHand.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1440px) {
+  .btn-joinHand {
+    width: 5vw;
+    height: 6.22vw;
+  }
+}
+
+@media (max-width: 485px) {
+  .btn-joinHand {
+    width: 46.49px;
+    height: 57.9px;
+  }
+}
+
+.btn-join {
+  width: 160px;
+  height: 93.2px;
+  background-image: url("../images/btn/btn_join.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+@media (max-width: 1440px) {
+  .btn-join {
+    width: 8vw;
+    height: 4.8vw;
+  }
+}
+
+@media (max-width: 485px) {
+  .btn-join {
+    width: 84px;
+    height: 48.93px;
+  }
+}
+
+.join:hover {
+  cursor: pointer;
+}
+
+.join:hover .btn-joinHand {
+  background-image: url("../images/btn/btn_joinHand.gif");
+}
+
+.join:hover .btn-join {
+  background-image: url("../images/btn/btn_join_h.png");
+}
+
+.btn-user {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  top: 30px;
+  right: 20px;
+  background-image: url("../images/btn/btn_user.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+@media (max-width: 1440px) {
+  .btn-user {
+    width: 4vw;
+    height: 4vw;
+    top: 1.5vw;
+    right: 1vw;
+  }
+}
+
+@media (max-width: 485px) {
+  .btn-user {
+    width: 40px;
+    height: 40px;
+    top: 12px;
+    right: 8px;
+  }
+}
+
+.btn-logo {
+  width: 220px;
+  height: 148px;
+  position: fixed;
+  top: 30px;
+  left: 40px;
+  background-image: url("../images/logo/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 95%;
+}
+
+@media (max-width: 1440px) {
+  .btn-logo {
+    width: 12vw;
+    height: 8vw;
+    top: 1.5vw;
+    left: 2vw;
+  }
+}
+
+@media (max-width: 485px) {
+  .btn-logo {
+    display: none;
   }
 }
 /*# sourceMappingURL=all.css.map */

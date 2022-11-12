@@ -74,6 +74,10 @@ h5, .highlight{
     }
 }
 
+.color-red{
+    color: $Highlight-color;
+}
+
 .bg-primary{
     display: inline-block;
     background: $Primary-color;
@@ -89,4 +93,14 @@ h5, .highlight{
 }
 .bdrs-40{
     border-radius: 40px;
+}
+
+
+.display-s{
+    display: none;
+}
+@media (max-width: $media-s){
+    .display-s{
+        display: block;
+    }
 }

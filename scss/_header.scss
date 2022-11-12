@@ -46,7 +46,6 @@ header{
     }
 }
 .logo{
-    display: none;
     width: 253px;
     height: 189px;
     background-image:url("../images/logo/logo.png");
@@ -54,11 +53,6 @@ header{
     background-position: center;
     background-size:100%;
     margin: 37px auto;
-}
-@media (max-width: $media-s){
-    .logo{
-        display: block;
-    }
 }
 
 .bg-road{

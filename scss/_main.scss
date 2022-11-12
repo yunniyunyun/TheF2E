@@ -1,0 +1,51 @@
+.btn-user{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    background-image:url("../images/btn/btn_user.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+}
+@media (max-width: $media-m){
+    .btn-user{
+        width: 4vw;
+        height: 4vw;
+        top: 1.5vw;
+        right: 1vw;
+    }
+}
+@media (max-width: $media-s){
+    .btn-user{
+        width: 40px;
+        height: 40px;
+        top: 12px;
+        right: 8px;
+    }
+}
+.btn-logo{
+    width: 220px;
+    height: 148px;
+    position: fixed;
+    top: 30px;
+    left: 40px;
+    background-image:url("../images/logo/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:95%;
+}
+@media (max-width: $media-m){
+    .btn-logo{
+        width: 12vw;
+        height: 8vw;
+        top: 1.5vw;
+        left: 2vw;
+    }
+}
+@media (max-width: $media-s){
+    .btn-logo{
+        display: none;
+    }
+}
