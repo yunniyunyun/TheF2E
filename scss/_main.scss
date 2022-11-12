@@ -49,3 +49,65 @@
         display: none;
     }
 }
+
+.container{
+    max-width: 1440px;
+    // border: 1px solid red;
+    margin: 0 auto;
+}
+@media (max-width: $media-s){
+    .container{
+        width: 100vw;
+    }
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    li{
+        height: 153px; 
+        h2{
+            text-align: center;
+            line-height: 120px;
+        }  
+        &:first-child{
+            width: 98.57px;
+            background-image:url("../images/bg/bg_talking_l.png");
+            background-repeat: no-repeat;
+            background-position: right 0px;
+            background-size:80%;
+        } 
+        &:nth-child(2){
+            background-image:url("../images/bg/bg_talking_c.png");
+            background-repeat: no-repeat;
+            background-position: center 0px;
+            background-size: 100% 100%;
+        } 
+        &:last-child{
+            width: 98.57px;
+            background-image:url("../images/bg/bg_talking_r.png");
+            background-repeat: no-repeat;
+            background-position: left 0px;
+            background-size:100% 100%;
+        } 
+    }
+    
+}
+
+
+@media (max-width: $media-s){
+    .title{
+        display: block;
+        li{
+            height: 72px;
+            h2{
+                line-height: 60px;
+            } 
+            &:nth-child(2){
+                background-size: 100% 96%;
+                background-position: center 2px;
+            } 
+        }
+    }
+}

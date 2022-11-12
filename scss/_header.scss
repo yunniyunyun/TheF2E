@@ -10,7 +10,7 @@ header{
 
 .logo-text{
     width: 680px;
-    height: 236px;
+    height: 236.03px;
     position: absolute;
     background-image:url("../images/logo/logo_text.png");
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ header{
 @media (max-width: $media-l){
     .logo-text{
         width: 35vw;
-        height: 22vh;
+        height: 12.14vw;
         top: 4vh;
         left: calc((100vw - 35vw)/2);
     }
@@ -31,7 +31,7 @@ header{
 @media (max-width: $media-m){
     .logo-text{
         width: 28vw;
-        height: 22vh;
+        height: 9.7vw;
         left: calc((100vw - 28vw)/2);
     }
 }
@@ -70,6 +70,7 @@ header{
 @media (max-width: $media-l){
     .bg-road{
         width: 61vw;
+        height: 7vw;
         left: calc((100vw - 61vw)/2);
     }
 }
@@ -97,6 +98,7 @@ header{
 @media (max-width: $media-l){
     .bg-start{
         width: 73vw;
+        height: 55vw;
         left: calc((100vw - 73vw)/2);
     }
 }
@@ -122,12 +124,14 @@ header{
 @media (max-width: $media-l){
     .char-f2e{
         width: 18vw;
+        height: 30.8vw;
         left: calc((100vw - 56vw)/2);
     }
 }
 @media (max-width: $media-m){
     .char-f2e{
         width: 14vw;
+        height: 23.97vw;
         left: calc((100vw - 50vw)/2);
     }
 }
@@ -155,12 +159,14 @@ header{
 @media (max-width: $media-l){
     .char-ui{
         width: 19vw;
+        height: 30.86vw;
         left: calc((100vw - 19vw)/2);
     }
 }
 @media (max-width: $media-m){
     .char-ui{
         width: 15vw;
+        height: 24.36vw;
         left: calc((100vw - 15vw)/2);
     }
 }
@@ -187,12 +193,14 @@ header{
 @media (max-width: $media-l){
     .char-team{
         width: 18vw;
+        height: 27vw;
         right: calc((100vw - 55vw)/2);
     }
 }
 @media (max-width: $media-m){
     .char-team{
         width: 14vw;
+        height: 21vw;
         right: calc((100vw - 50vw)/2);
     }
 }
@@ -220,7 +228,9 @@ h1{
 }
 @media (max-width: $media-l){
     h1{
-        left: calc((100vw - 314px)/2);
+        padding: 4px 16px;
+        left: calc((100vw - 260px)/2);
+        top: 13vw;
     }
 }
 @media (max-width: $media-m){
@@ -245,8 +255,8 @@ h1{
     width: 22px;
     height: 22px;
     display: inline-block;
-    transform: translateY(-60px);
-    filter: drop-shadow(#fff -2px 62px);
+    transform: translateY(-80px);
+    filter: drop-shadow(#fff -2px 82px);
 }
 .ready-users{
     max-width: 1180px;
@@ -259,6 +269,13 @@ h1{
         overflow: hidden;
     }
     
+}
+@media (max-width: $media-l){
+    .ready-users{
+        li{
+            margin-top: 16vw;
+        }
+    }
 }
 @media (max-width: $media-s){
     .ready-users{

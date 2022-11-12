@@ -73,6 +73,9 @@ h5, .highlight{
         font-size: 18px;
     }
 }
+.highlight-color{
+    color: $Highlight-color;
+}
 
 .color-red{
     color: $Highlight-color;
@@ -102,5 +105,11 @@ h5, .highlight{
 @media (max-width: $media-s){
     .display-s{
         display: block;
+    }
+}
+
+@media (max-width: $media-s){
+    .display-none-s{
+        display: none;
     }
 }

@@ -1,0 +1,40 @@
+.sponsor{
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-around;
+    li{
+        text-align: center;
+    }
+    .sponsor-name{
+        padding: 0 18px;
+        display: inline-block;
+        color: $Secondary-Dark-color;
+        border: 1px solid $Secondary-Dark-color;
+    }
+}
+.sponsor-img{
+    width: 315px;
+    height: 315px;
+    background-image:url("../images/btn/btn_sponsor.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    img{
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 24px;
+    }
+}
+@media (max-width: $media-s){
+    .sponsor{
+        display: block;
+        li{
+            margin-bottom: 44px;
+        }
+    }
+    .sponsor-img{
+        width: 252px;
+        height: 252px;
+        margin: 0 auto 16px;
+    }
+}
