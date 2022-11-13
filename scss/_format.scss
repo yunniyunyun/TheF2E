@@ -83,6 +83,9 @@ h5, .highlight{
 .color-primary{
     color: $Primary-color;
 }
+.color-secondary{
+    color: $Secondary-color
+}
 .color-secondary-dark{
     color: $Secondary-Dark-color;
 }
@@ -108,7 +111,9 @@ h5, .highlight{
     border-radius: 40px;
 }
 
-
+.display-none{
+    display: none;
+}
 .display-s{
     display: none;
 }
@@ -121,5 +126,14 @@ h5, .highlight{
 @media (max-width: $media-s){
     .display-none-s{
         display: none;
+    }
+}
+
+.mt-1{
+    margin-top: 232px;
+}
+@media (max-width: $media-s){
+    .mt-1{
+        margin-top: 228px;
     }
 }

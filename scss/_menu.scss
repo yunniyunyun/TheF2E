@@ -1,0 +1,105 @@
+.layout-side{
+    display: flex;
+    height: 100vh;
+    z-index: 2;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.menu-side{
+    width: 20px;
+    height: 100%;
+    background-image:url("../images/bg/bg_menuSide.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:100% 100%;
+}
+.menu-btn{
+    width: 60px;
+    height: 67px;
+    background-image:url("../images/btn/btn_burger_open.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:100%;
+    margin-left: -2px;
+    &:hover{
+        background-image:url("../images/btn/btn_burger_open_h.png");
+        cursor: pointer;
+    }
+}
+.menu-btn-open{
+    width: 60px;
+    height: 67px;
+    background-image:url("../images/btn/btn_burger_close.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:100%;
+    margin-left: -2px;
+    &:hover{
+        background-image:url("../images/btn/btn_burger_close_h.png");
+        cursor: pointer;
+    }
+}
+@media (max-width: $media-s){
+    .menu-side{
+        display: none;
+    }
+    .layout-side{
+        align-items: flex-start;
+    }
+    .menu-btn{
+        width: 40px;
+        height: 44px;
+        margin-top: 12px;
+    }
+}
+.menu-open{
+    width: 135px;
+    height: 100%;
+    background: $Primary-color;
+    padding-top: 40px;
+    padding-left: 40px;
+    li{
+        text-align: center;
+        margin-bottom: 40px;
+        width: 76px;
+    }
+}
+
+.menu-ic{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 4px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:100%;
+}
+.menu-title{
+    font-size: 18px;
+}
+.menu-info{
+    background-image:url("../images/ic/ic_menu_info.png");
+    &:hover{
+        background-image:url("../images/ic/ic_menu_info_h.png");
+    }
+}
+.menu-list{
+    background-image:url("../images/ic/ic_menu_list.png");
+    &:hover{
+        background-image:url("../images/ic/ic_menu_list_h.png");
+    }
+}
+.menu-strategy{
+    background-image:url("../images/ic/ic_menu_strategy.png");
+    &:hover{
+        background-image:url("../images/ic/ic_menu_strategy_h.png");
+    }
+}
+.menu-job{
+    background-image:url("../images/ic/ic_menu_job.png");
+    &:hover{
+        background-image:url("../images/ic/ic_menu_job_h.png");
+    }
+}

@@ -1,3 +1,13 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+@media (max-width: $media-s){
+    .container{
+        width: 100vw;
+    }
+}
+
 .btn-user{
     width: 80px;
     height: 80px;
@@ -8,6 +18,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size:100%;
+    &:hover{
+        background-image:url("../images/btn/btn_user_h.png");
+    }
 }
 @media (max-width: $media-m){
     .btn-user{
@@ -51,16 +64,6 @@
     }
 }
 
-.container{
-    max-width: 1440px;
-    // border: 1px solid red;
-    margin: 0 auto;
-}
-@media (max-width: $media-s){
-    .container{
-        width: 100vw;
-    }
-}
 
 .title{
     display: flex;
@@ -123,6 +126,7 @@
     .btn-joinHand{
         width: 57px;
         height: 71px;
+        background-image:url("../images/btn/btn_joinHand.gif");
     }
     .btn-join{
         width: 103px;
@@ -131,9 +135,6 @@
 }
 .fix-join:hover{
     cursor: pointer;
-}
-.fix-join:hover .btn-joinHand{
-    background-image:url("../images/btn/btn_joinHand.gif");
 }
 
 .fix-join:hover .btn-join{

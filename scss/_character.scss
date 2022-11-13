@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-around;
     margin-top: 64px;
+    li{
+        width: 25%;
+    }
     .joinHand{
         height: 71px;
     }
@@ -26,6 +29,7 @@
     .character{
         display: block;
         li{
+            width:100%;
             display: flex;
             justify-content: center;
             align-items: center;
