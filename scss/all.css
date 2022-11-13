@@ -728,7 +728,6 @@ footer {
 .btn-logo {
   width: 220px;
   height: 148px;
-  position: fixed;
   top: 30px;
   left: 40px;
   z-index: 1;
