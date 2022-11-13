@@ -1,0 +1,13 @@
+.competition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.competition-ic{
+    width: 375px;
+    height: 375px;
+    background-image:url("../images/main/award.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center;
+}

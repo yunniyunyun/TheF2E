@@ -31,6 +31,7 @@
     position: fixed;
     top: 30px;
     left: 40px;
+    z-index: 1;
     background-image:url("../images/logo/logo.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -108,6 +109,45 @@
                 background-size: 100% 96%;
                 background-position: center 2px;
             } 
+        }
+    }
+}
+
+
+.fix-join{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    z-index: 1;
+    .btn-joinHand{
+        width: 57px;
+        height: 71px;
+    }
+    .btn-join{
+        width: 103px;
+        height: 60px;
+    }
+}
+.fix-join:hover{
+    cursor: pointer;
+}
+.fix-join:hover .btn-joinHand{
+    background-image:url("../images/btn/btn_joinHand.gif");
+}
+
+.fix-join:hover .btn-join{
+    background-image:url("../images/btn/btn_join_h.png");
+}
+@media (max-width: $media-m){
+    .fix-join{
+        .btn-joinHand{
+            width: 3vw;
+            height: 3.73vw;
+        }
+        .btn-join{
+            width: 5vw;
+            height: 2.9vw;
         }
     }
 }

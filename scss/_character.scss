@@ -1,0 +1,65 @@
+.character{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 64px;
+    .joinHand{
+        height: 71px;
+    }
+    .btn-joinHand{
+        background-image:url("../images/btn/btn_joinHand.gif");
+        width: 57px;
+        height: 71px;
+        display: none;
+    }
+    .btn-join{
+        width: 103px;
+        height: 60px;
+    }
+    li:hover .btn-joinHand{
+        display: block;
+    }
+    li:hover .btn-join{
+        background-image:url("../images/btn/btn_join_h.png");
+    }
+}
+@media (max-width: $media-s){
+    .character{
+        display: block;
+        li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:nth-child(2){
+                flex-direction:row-reverse;
+            }
+        }
+    }
+}
+@media (max-width: $media-s){
+    .character-ic{
+        width: 157px;
+        height: 270px;
+    }
+    .character-btn{
+        width: 180px;
+    }
+    .character-f2e{
+        background-image:url("../images/character/character_f2e.gif");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size:100%;
+    }
+    .character-ui{
+        background-image:url("../images/character/character_ui.gif");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size:100%;
+    }
+    .character-team{
+        background-image:url("../images/character/character_team.gif");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size:100%;
+    }
+}
+
