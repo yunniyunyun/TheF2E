@@ -1133,6 +1133,13 @@ footer {
   background-repeat: no-repeat;
   background-position: right;
   background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 .menu-btn {
@@ -1143,6 +1150,10 @@ footer {
   background-position: left;
   background-size: 100%;
   margin-left: -2px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
 }
 
 .menu-btn:hover {
@@ -1150,7 +1161,7 @@ footer {
   cursor: pointer;
 }
 
-.menu-btn-open {
+.open .menu-btn {
   width: 60px;
   height: 67px;
   background-image: url("../images/btn/btn_burger_close.png");
@@ -1160,7 +1171,7 @@ footer {
   margin-left: -2px;
 }
 
-.menu-btn-open:hover {
+.open .menu-btn:hover {
   background-image: url("../images/btn/btn_burger_close_h.png");
   cursor: pointer;
 }
@@ -1178,6 +1189,12 @@ footer {
     width: 40px;
     height: 44px;
     margin-top: 12px;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .open .menu-btn {
+    width: 40px;
+    height: 44px;
   }
 }
 
@@ -1187,12 +1204,45 @@ footer {
   background: #007FAB;
   padding-top: 40px;
   padding-left: 40px;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  -webkit-transform: translateX(-135px);
+          transform: translateX(-135px);
 }
 
 .menu-open li {
   text-align: center;
   margin-bottom: 40px;
   width: 76px;
+}
+
+.open .menu-open {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.open .menu-btn {
+  -webkit-transform: translateX(155px);
+          transform: translateX(155px);
+}
+
+.open .menu-side {
+  -webkit-transform: translateX(135px);
+          transform: translateX(135px);
+}
+
+@media (max-width: 485px) {
+  .open .menu-open {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .open .menu-btn {
+    -webkit-transform: translateX(135px);
+            transform: translateX(135px);
+  }
 }
 
 .menu-ic {

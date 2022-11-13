@@ -5,7 +5,7 @@
 $(document).ready(function () {
     $(".menu-btn").click(function (event) {
         event.preventDefault();
-        $(".menu-open").toggleClass("open");
+        $(".layout-side").toggleClass("open");
     });
   });
   

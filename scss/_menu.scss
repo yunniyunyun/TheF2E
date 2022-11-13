@@ -14,6 +14,11 @@
     background-repeat: no-repeat;
     background-position: right;
     background-size:100% 100%;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    transition: 0.5s ease;
+    transform: translateX(0px);
 }
 .menu-btn{
     width: 60px;
@@ -23,12 +28,14 @@
     background-position: left;
     background-size:100%;
     margin-left: -2px;
+    transition: 0.5s ease;
+    transform: translateX(20px);
     &:hover{
         background-image:url("../images/btn/btn_burger_open_h.png");
         cursor: pointer;
     }
 }
-.menu-btn-open{
+.open .menu-btn{
     width: 60px;
     height: 67px;
     background-image:url("../images/btn/btn_burger_close.png");
@@ -52,6 +59,11 @@
         width: 40px;
         height: 44px;
         margin-top: 12px;
+        transform: translateX(0px);
+    }
+    .open .menu-btn{
+        width: 40px;
+        height: 44px;
     }
 }
 .menu-open{
@@ -60,10 +72,32 @@
     background: $Primary-color;
     padding-top: 40px;
     padding-left: 40px;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    transition: 0.5s ease;
+    transform: translateX(-135px);
     li{
         text-align: center;
         margin-bottom: 40px;
         width: 76px;
+    }
+}
+.open .menu-open {
+    transform: translateX(0px);
+}
+.open .menu-btn {
+    transform: translateX(155px);
+}
+.open .menu-side{
+    transform: translateX(135px);
+}
+@media (max-width: $media-s){
+    .open .menu-open {
+        transform: translateX(0px);
+    }
+    .open .menu-btn {
+        transform: translateX(135px);
     }
 }
 
