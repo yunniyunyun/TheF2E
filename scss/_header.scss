@@ -58,7 +58,7 @@ header{
 .bg-road{
     width: 1175px;
     height: 135.5px;
-    position: absolute;
+    position: fixed;
     background-image:url("../images/main/road.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -111,7 +111,7 @@ header{
 .char-f2e{
     width: 351px;
     height: 601px;
-    position: absolute;
+    position: fixed;
     background-image:url("../images/character/character_f2e.gif");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -147,7 +147,7 @@ header{
 .char-ui{
     width: 370px;
     height: 601px;
-    position: absolute;
+    position: fixed;
     background-image:url("../images/character/character_ui.gif");
     background-repeat: no-repeat;
     background-size:100%;
@@ -181,7 +181,7 @@ header{
 .char-team{
     width: 351px;
     height: 527px;
-    position: absolute;
+    position: fixed;
     background-image:url("../images/character/character_team.gif");
     background-repeat: no-repeat;
     background-size:100%;
