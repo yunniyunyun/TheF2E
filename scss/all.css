@@ -253,7 +253,7 @@ header {
 .logo-text {
   width: 680px;
   height: 236.03px;
-  position: absolute;
+  position: fixed;
   background-image: url("../images/logo/logo_text.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -365,7 +365,7 @@ header {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100%;
-  z-index: -3;
+  z-index: 1;
   bottom: 0px;
   left: calc((100vw - 1175px)/2 + 10px);
 }
@@ -402,7 +402,7 @@ header {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;
-  z-index: -3;
+  z-index: 1;
   bottom: 0px;
   left: calc((100vw - 1140px)/2 + 371px);
 }
@@ -439,7 +439,7 @@ header {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;
-  z-index: -3;
+  z-index: 1;
   bottom: 0px;
   right: calc((100vw - 1140px)/2 + 10px);
 }
@@ -792,6 +792,14 @@ footer {
   background-repeat: no-repeat;
   background-position: left 0px;
   background-size: 100% 100%;
+}
+
+.page-2 {
+  opacity: 0;
+}
+
+.active {
+  opacity: 1;
 }
 
 @media (max-width: 485px) {
