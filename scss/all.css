@@ -798,6 +798,22 @@ footer {
   opacity: 0;
 }
 
+.page-3 {
+  opacity: 0;
+}
+
+.page-4 {
+  opacity: 0;
+}
+
+.page-5 {
+  opacity: 0;
+}
+
+.page-6 {
+  opacity: 0;
+}
+
 .active {
   opacity: 1;
 }
